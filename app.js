@@ -1,7 +1,7 @@
 const https = require('https');
 const fs = require('fs');
 const { JSDOM } = require('jsdom');
-const domain = 'www.entel.cl';
+const domain = 'www.yourdomain.cl';
 
 fs.readFile('rutas.txt', 'utf8', (err, data) => {
   if (err) {
